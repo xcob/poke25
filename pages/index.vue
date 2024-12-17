@@ -13,6 +13,10 @@
             <p>
               {{ pokemon.type }}
             </p>
+            <p>
+              {{ pokemon.weight }}
+            </p>
+            
           </div>
         </div>
     </div>
@@ -48,6 +52,7 @@ export default {
          // type2: pokemonData.types[1].type.name,
           pid: pokemonData.id,
           image: pokemonData.sprites.front_default,
+          weight: pokemonData.weight
         };
       });
 
