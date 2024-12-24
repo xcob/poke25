@@ -14,5 +14,8 @@
     "pokemontcgsdk": "^2.0.0",
     "vue": "latest",
     "vue-router": "latest"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^6.12.2"
   }
 }

@@ -105,9 +105,12 @@
         }
   
         .pokemon-info {
+          display: flex;
+          flex-direction: column;
           text-align: center;
           text-transform: capitalize;
           font-family: 'Arial';
           font-weight: 600;
+          align-items: center;
         }
     </style>

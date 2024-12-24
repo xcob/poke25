@@ -1,5 +1,11 @@
 <template>
-    <div>
+    <NuxtLayout name="base">
       <PokemonCard/>
-    </div>    
+    </NuxtLayout>      
 </template>
+
+<script setup>
+definePageMeta({
+  layout: "base",
+});
+</script>

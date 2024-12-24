@@ -1,5 +1,6 @@
 <template>
-    <div>
+    <NuxtLayout name="base">
       <PokemonSprite/>
-    </div>    
+    </NuxtLayout>    
 </template>
+
